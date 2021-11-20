@@ -18,7 +18,7 @@ Angle = 270;
 StatutGame = "Start";
 function preload(){
   //télécharger les images ici
-  nebulaImg = loadImage("nebula.png");
+  nebulaImg = loadImage("nebula.jpeg");
   vaisseauImg = loadImage("spaceship.png");
   thrustImg = loadImage("thrust.png");
   PlayImg = loadImage("play.png");
@@ -36,7 +36,7 @@ function setup(){
   
   nebula = createSprite(LARGEUR/2,HAUTEUR/2,LARGEUR/2, HAUTEUR/2);
   nebula.addImage(nebulaImg);
-  nebula.scale = 1.2;
+  nebula.scale = 2;
   
 SpaceShip = createSprite(LARGEUR/2,HAUTEUR/2,20,20);
 SpaceShip.addAnimation("spaceship",vaisseauImg);
