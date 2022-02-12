@@ -6,8 +6,8 @@ var nebula, SpaceShip,PlayButton, AsteroidGroup,LaserGroup;
 var nebulaImg, vaisseauImg,thrustImg,PlayImg,rockImg,laserImg,explosionImg;
 
 //dimension zone de jeu
-var LARGEUR = 800;
-var HAUTEUR = 800;
+var LARGEUR = 400;
+var HAUTEUR = 400;
 
 // variables états de jeu
 var Vie, Score, BestScore, Angle, StatutGame;
